@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Build-time renderer for the 20 November 2026 world-news poster.
+"""Render the 20 November 2026 world-news poster.
 
-Draws a 3072x3072 supersampled canvas and downsamples it with LANCZOS to a
-1024x1024 PNG at art/entry.png.  No network, no randomness, no clock reads.
+Supersamples at 3x (3072x3072) and downsamples with LANCZOS to a
+1024x1024 PNG at art/entry.png. Takes no network or clock input.
 """
 
 import os
